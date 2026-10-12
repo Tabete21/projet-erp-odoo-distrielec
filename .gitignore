@@ -1,0 +1,19 @@
+# Sauvegardes de bases Odoo : elles contiennent tes identifiants et ne doivent jamais être publiées
+*.zip
+*.dump
+*.sql
+
+# Données brutes extraites (régénérables avec scripts/extraire_donnees.py)
+donnees/
+donnees_*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Fichiers locaux
+.env
+*.log
+Thumbs.db
+desktop.ini
